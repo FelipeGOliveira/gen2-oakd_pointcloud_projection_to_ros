@@ -1,4 +1,16 @@
 #!/usr/bin/env python3
+# Author: Felipe Gomes de Oliveira
+#==================================== INPUTS ===============================================
+# Text file with Intrinsic Parameters
+# /home/catkin_ws/src/oakd_calibration/left/
+# /home/catkin_ws/src/oakd_calibration/right/
+#==================================== OUTPUTS ==============================================
+# PointCloud2 topic
+# /pointcloud
+#==================================== GOAL =================================================
+# Publish point cloud from OAK-D camera.
+#===========================================================================================
+
 import numpy as np
 import csv
 import os 
